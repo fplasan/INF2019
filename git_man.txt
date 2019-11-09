@@ -1,0 +1,35 @@
+User: fplasan
+Pass7...a
+
+Fpla
+Pass7..a
+
+echo "# INF_MEC_2019" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/fpla/INF_MEC_2019.git
+git push -u origin master
+
+
+
+
+Obrir terminal
+Your repositoris
+New
+/* primera vegada */
+Bash
+ git add .
+git  commit -m "v.0"
+...
+
+/* quan canvies */
+
+
+
+git add . /* afegisc tot el que he canviat
+git status /* per vore el que ha canviat
+git commit -m "he cambiado X"
+git push 
+
+git pull /* si hi ha varies persones treballant et pregunta si vols els canvis o no
