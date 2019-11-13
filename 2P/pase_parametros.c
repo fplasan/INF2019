@@ -1,22 +1,23 @@
 #include <stdio.h>
-#include <string.h>
+#include <string.h>   //lo veremos más adelante
 
-void cambio(char cadena[30], int *x)
+int cambio(char cadena[30], int x)
 {
-    *x = *x + 1;
+    x = x + 1;
     strcpy(cadena, "Te he cambiado");
-    //return x;
+    //lo veremos más adelante
+    return x;
 }
 
 int main()
 {
-    char cadena[30] = "cambiane";
+    char cadena[30] = "cambiame";
     int x = 1, y;
     printf("ANTES\n");
     printf("cadena: %s\n", cadena);
     printf("x: %d\n", x);
 
-    cambio(cadena, &x);
+    x=cambio(cadena, x);
 
     printf("DESPUES:\n");
     printf("cadena: %s\n", cadena);

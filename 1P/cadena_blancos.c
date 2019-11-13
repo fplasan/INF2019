@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
 	// scanf("\n%[^\n]",f);
 	// alternativa al gets()
 	
+    //no canvi
 
 	printf("%s\n",f);
 	return 0;
