@@ -4,7 +4,7 @@
 int main()
 {
 	int fila,columna;
-	for (fila=0;fila<10;fila++){
+	for (fila=0;fila<N;fila++){
 		for (columna=0;columna<=fila;columna++)
 			printf("*");
 		printf("\n");

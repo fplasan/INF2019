@@ -2,6 +2,8 @@
 #include <math.h>
 #define N 10
 
+// Calcula la varianza de 10 numero leidos de un fichero llamado "datos.txt"
+
 float media(float v[N])
 {
     int i, suma = 0;

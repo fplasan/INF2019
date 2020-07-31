@@ -1,4 +1,6 @@
 #include <stdio.h>
+// Dado un numero entero positvo leido por pantalla
+// invertir el numero. Ej: 1234 -> 4321
 
 int main()
 {

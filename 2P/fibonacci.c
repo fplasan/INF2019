@@ -1,4 +1,5 @@
 #include <stdio.h>
+// Serie Fibonacci F1=1, F2=1,F3=2, ...,Fn=Fn-1+Fn-2
 
 int fibonacci(int n)
 {
